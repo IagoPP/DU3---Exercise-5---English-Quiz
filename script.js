@@ -8,19 +8,19 @@ function test(){
         }       
     }
 
-    let correct = document.getElementsByID("correct");
-    let incorrect = document.getElementsByID("incorrect");
+    let correct = document.getElementById("correct");
+    let incorrect = document.getElementById("incorrect");
 
     switch (checked) {
-        case 1:
+        case "1":
             incorrect.style.display="unset";
             correct.style.display="none";
             break;
-        case 2:
+        case "2":
             correct.style.display="unset";
             incorrect.style.display="none";
           break;
-        case 3:
+        case "3":
             incorrect.style.display="unset";
             correct.style.display="none";
           break;
